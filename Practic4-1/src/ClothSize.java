@@ -1,5 +1,5 @@
 public enum ClothSize {
-    XSS(32){
+    XXS(32){
         public String getDescription()
         {
             return "Детский размер";
