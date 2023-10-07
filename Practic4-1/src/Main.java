@@ -4,7 +4,7 @@ public class Main {
                 new TShirt(ClothSize.L, 999, "зелёный"),
                 new Skirt(ClothSize.S, 1499, "чёрный"),
                 new Pants(ClothSize.M, 799, "белый"),
-                new Tie(ClothSize.XSS, 299, "жёлтый"),
+                new Tie(ClothSize.XXS, 299, "жёлтый"),
         };
 
         Atelier atelier = new Atelier();
