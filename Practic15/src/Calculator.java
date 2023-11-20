@@ -10,7 +10,9 @@ public class Calculator extends JFrame {
 
     public Calculator()
     {
-        super();
+        super("Calculator");
+        setSize(600, 400);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
         _resultLabel = new JLabel();
         _resultLabel.setSize(200, 25);
         _leftOperandField = new JTextField();
